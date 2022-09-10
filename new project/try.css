@@ -1,0 +1,185 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.header {
+    display: flex;
+    background-color: #fff;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.headerp1 {
+    margin-right: 63%;
+    margin-left: 2%;
+}
+.headerp1:hover {
+    background-color: #ccc;
+}
+.headerp2:hover {
+    background-color: #ccc;
+}
+.headerp3:hover {
+    background-color: #ccc;
+}.headerp4:hover {
+    background-color: #ccc;
+}
+.pdiv {
+    letter-spacing: 3px;
+    padding: 10px;
+    cursor: pointer;
+}
+.image1 {
+    width: 100%;
+    height: 800%;
+}
+.imageh1 {
+    font-size: 36px;
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    color: rgb(110, 110, 110);
+    font-weight: 100;
+    position: absolute ;
+    top: 575px;
+    margin-left: 20px;
+
+}
+
+.desertimg {
+   width:600px;
+   height: 750px;
+}
+
+.h1{
+    font-size: 30px;
+    text-align: center;
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.desertimg {
+  width: 600px;
+  height: 750px;
+  letter-spacing: 5px;
+    margin-right: 11%;
+    opacity: 0.75;
+    border-radius: 4px;
+    padding-left: 112px;
+}
+
+.image2 {
+    display: flex;
+}
+
+.h5{
+   margin: 10px 0px;
+   text-align: center;
+   font-family: "Playfair Display";
+   letter-spacing: 5px;
+   font-weight: 400;
+   position: absolute;
+   top: 810px;
+   left: 885px;
+}
+.divh5{
+    position: absolute;
+    top: 850px;
+    left: 850px;
+}
+.seasonal{
+   background-color: #f1f1f1;
+}
+.sint{
+    position: absolute;
+    top: 1020px;
+    left: 820px;
+    color:  #757575;
+}
+.lestting{
+    position: absolute;
+    opacity: 0.7;
+    left: 730px;
+}
+.ourmenu{
+    letter-spacing: 3px;
+   margin-left: 200px ;
+   margin-top: 70px ;
+}
+
+.content{
+    margin-top: 33px;
+    margin-left: 60px;
+    letter-spacing: 3px;
+    color: #757575;
+}
+
+.head{
+    margin-top: 33px;
+    margin-left: 80px;
+    letter-spacing: 3px;
+}
+.contact{
+    font-weight: 400;
+    letter-spacing: 4px;
+    font-family: "Playfair Display";
+    text-align: center;
+    font-size: 40px;
+    padding-right: 967px;
+
+}
+.p1{
+    position: absolute;
+    left: 30px;
+    margin-top: -2%;
+}
+.h2{
+    color: #607d8b;
+}
+
+.p2{   
+     top: 2919px;
+    left: 21px;
+}
+.form{
+    position: absolute;
+    padding-top:6px;
+    padding-bottom:16px;
+    padding-left: 12%;
+}
+.formInput{
+    height: 50px;
+    width: 1000px;
+    padding: 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+.formButton{
+    border: none;
+    background-color: #f1f1f1;
+    color: #000;
+    margin-top: 10px;
+    padding: 10px;
+}
+.footer{
+    background-color:  #f1f1f1;
+    margin-top: 50%;
+    padding: 40px 0px 40px 0px;
+    height: 70px;
+}
+.footerp{
+    text-align: center;
+}
+.footera:hover{
+    color: #4CAF50;
+}
+@media screen and  (min-width:100px) and (max-width:1000px){
+    .all{
+        display: block;
+        width: 100%;
+    }
+}
+    
